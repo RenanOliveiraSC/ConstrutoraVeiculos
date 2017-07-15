@@ -6,6 +6,7 @@ public class Peca {
 	private String pecNome;
 	private double pecPreco;
 	private String pecCor;
+
 	private int pecCategoria;
 
 	public int getPecCodigo() {

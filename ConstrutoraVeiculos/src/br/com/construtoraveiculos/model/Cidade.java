@@ -1,6 +1,6 @@
 package br.com.construtoraveiculos.model;
 
-public class Cidade {
+public class Cidade extends Uf {
 
 	private int cidCodigo;
 	private String cidNome;
