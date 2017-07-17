@@ -36,7 +36,8 @@ public class TesteCidade {
 		cidade6.setCidNome("Vitória");
 		cidade6.setCidUf(6);
 
-		System.out.println("Cidade: " + cidade1.getCidNome() + "-" + cidade1.getUfNome());
+		System.out.println("Código: " + cidade1.getCidCodigo() + "  " + "Cidade: " + cidade1.getCidNome() + "-"
+				+ cidade1.getUfNome());
 
 	}
 }

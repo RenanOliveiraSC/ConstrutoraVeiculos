@@ -1,6 +1,6 @@
 package br.com.construtoraveiculos.model;
 
-public class Categoria_Projeto {
+public class Categoria_Projeto extends Projeto {
 
 	private int capCodigo;
 	private String capDescricao;

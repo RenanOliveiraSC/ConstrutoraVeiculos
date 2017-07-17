@@ -1,6 +1,6 @@
 package br.com.construtoraveiculos.model;
 
-public class Cidade_Fornecedor {
+public class Cidade_Fornecedor extends Cidade {
 
 	private int cifCidade;
 	private int cifFornecedor;

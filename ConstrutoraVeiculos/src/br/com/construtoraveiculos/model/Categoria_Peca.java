@@ -1,6 +1,6 @@
 package br.com.construtoraveiculos.model;
 
-public class Categoria_Peca {
+public class Categoria_Peca extends Peca {
 
 	private int cpeCodigo;
 	private String cpeDescricao;

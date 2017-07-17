@@ -1,6 +1,6 @@
 package br.com.construtoraveiculos.model;
 
-public class Categoria_Fornecedor {
+public class Categoria_Fornecedor extends Fornecedor {
 
 	private int cafCodigo;
 	private String cafDescricao;
