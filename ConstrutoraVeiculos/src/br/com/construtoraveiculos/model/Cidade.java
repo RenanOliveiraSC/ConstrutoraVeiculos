@@ -4,7 +4,7 @@ public class Cidade extends Uf {
 
 	private int cidCodigo;
 	private String cidNome;
-	private int cidUf;
+	private Uf uf;
 
 	public int getCidCodigo() {
 		return cidCodigo;
@@ -22,12 +22,13 @@ public class Cidade extends Uf {
 		this.cidNome = cidNome;
 	}
 
-	public int getCidUf() {
-		return cidUf;
+	public Uf getUf() {
+		return uf;
 	}
 
-	public void setCidUf(int cidUf) {
-		this.cidUf = cidUf;
+	public void setUf(Uf uf) {
+		this.uf = uf;
 	}
 
+	
 }

@@ -1,10 +1,12 @@
 package br.com.construtoraveiculos.model;
 
-public class Projeto {
+import java.text.DecimalFormat;
 
+public class Projeto {
+	DecimalFormat df = new DecimalFormat("#0.00");
 	private int proCodigo;
 	private String proNome;
-	private int proCusto;
+	private double proCusto;
 	private int proCategoria;
 
 	public int getProCodigo() {
@@ -23,11 +25,11 @@ public class Projeto {
 		this.proNome = proNome;
 	}
 
-	public int getProCusto() {
+	public double getProCusto() {
 		return proCusto;
 	}
 
-	public void setProCusto(int proCusto) {
+	public void setProCusto(double proCusto) {
 		this.proCusto = proCusto;
 	}
 
